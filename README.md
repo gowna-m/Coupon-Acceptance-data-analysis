@@ -14,13 +14,23 @@ As part of the **Data understanding and Data preparation**, checked for null val
 
 Apart from these features, there were a few categorical features that had a small percentage (~ 1%) of missing values - `Bar`,`CoffeeHouse` `CarryAway`,`RestaurantLessThan20`,`Restaurant20To50`. The NaN values here was replaced with the mode of the corresponding feature.
 
-Next is the **Data Analysis**, the acceptance rate calculated for the total observations is **57%**. The coupon feature was visualized on a multiple stack bar plot and the temperature feature was plotted on a histogram.
-Explored how the `bar` coupon made an impact on the acceptance rate,<br />
-1. **41%** bar coupons were accepted.<br />
+Next is the **Data Analysis**, the acceptance rate calculated for the total observations is **57%**. The `coupon` feature was visualized on a multiple stack bar plot and the `temperature` feature was plotted on a histogram.
+Explored how the `Bar` coupon made an impact on the acceptance rate,
+1. **41%** bar coupons were accepted.
 2. The acceptance rate of those who went to a bar 3 or fewer times a month is (**37%**) and those who went more is (**77%**)
 3. The acceptance rate of drivers who go to a bar more than once a month and are over the age of 25 is (**70%**) and those who never went or went to the bar lesser than once and below the age of 25 is (**34%**).
 4. The acceptance rate of drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry is **71%** and those those who never went or went to the bar lesser than once and had a passanger as a kid and had occupation as farming, fishing, or forestry is **30%**.
 5. The acceptance rate of drivers who went to the bar more than once a month and had passanger that were not a kid(s) and age < 30 and go to cheap restaurants more than 4 times a month and income < 50K is **57%** and drivers who went to the bar less than once a month or never went to the bar and had passanger that were a kid(s) and age > 30 and go to cheap restaurants less than 4 times a month and income > 50K is **30%**.
+
+From all the observations above, the drivers who accepted the bar coupons are ***drivers who went to the bar more than 3 times a month. Interestingly, there was another category where the bar coupon acceptance was higher, which was for those who were over the age of 25 AND who had passengers that were not a kid AND had occupation other than farming, fishing, or forestry.***
+
+Using the bar coupon example as motivation, explored one of the other coupon groups `CoffeeHouse` and tried to determine the characteristics of passengers who accept the coupons.
+
+Customers who went to the CoffeeHouse more than once a month and was a student by occupation and had a passanger that were a Friend(s) had acceptance rate is **82%** and customers who went to the CoffeeHouse less than once a month or never went to the CoffeeHouse and was not a student by occupation and had passanger that were not a Friend(s) is **49%**.
+
+Based on the above analysis,the drivers who accepted the coffeehouse coupons are ***those who go to the CoffeeHouse more than once a month AND who was a student by occupation AND who had a passanger friend along with him.***
+
+
 
 
 
