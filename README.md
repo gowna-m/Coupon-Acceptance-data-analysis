@@ -32,6 +32,7 @@ Drivers who went to the CoffeeHouse more than once a month and was a student by 
 
 Based on the above analysis, the drivers who accepted the coffeehouse coupons are ***those who go to the CoffeeHouse more than once a month AND who was a student by occupation AND who had a passanger friend along with him.***
 
+Next steps would be to explore the other coupon categories like _less expensive restaurants (under $20)_, _carry out & take away_, _expensive restaurants ($20 - $50)_for the acceptance rate considering the other significant features.
 
 
 
